@@ -19,6 +19,16 @@
   .main__taxi__img {
     margin-top: 80px;
   }
+
+  /* ===TARAFFS SECTION=== */
+  .tariffs__content__last {
+    margin-top: 140px;
+  }
+
+  /* ===CONTENT SECTION=== */
+  .content__right {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -60,6 +70,19 @@
   .cab__booking {
     margin-top: 48px;
   }
+
+  /* ===TARAFFS SECTION=== */
+
+  .tariffs__card__middle,
+  .tariffs__content__last {
+    margin-top: 140px;
+  }
+
+  /* ===TESTIMONIAL=== */
+
+  .second__testi {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 578px) {
@@ -83,5 +106,25 @@
   .cab__booking form input,
   .cab__booking form select {
     font-size: 16px;
+  }
+  /* ===CONTENT SECTION=== */
+
+  .content__img img {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .services__content {
+    gap: 16px;
+  }
+  .services__content img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .services__content p {
+    margin-top: 5px;
   }
 }
