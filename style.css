@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  /* font-family: "Bebas Neue", cursive; */
+  background: rgb(35, 82, 66);
+}
+
+img {
+  width: 100%;
+}
+
+/* ===NAVBAR SECTION START=== */
+
+nav .navbar-brand img {
+  width: 170px;
+  height: 60px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 5px 24px;
+  transition: 0.6s;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+  background: #ffc61a;
+  color: #010101;
+
+  border-radius: 2rem;
+}
+
+.navbar-toggler {
+  box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* ===NAVBAR SECTION END=== */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+nav.active {
+  position: fixed;
+  background: #010101;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  animation: slideIn 500ms ease forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ===HEADER SECTION START=== */
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header h3 {
+  color: #ffc61a;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-top: 100px;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+header p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+}
+
+.main__taxi__img {
+  margin-top: 80px;
+}
+
+/* ===HEADER SECTION END=== */
+
+/* ===CAB SECTION START=== */
+
+#cab {
+  background: #ffc61a;
+  padding-top: 200px;
+  padding-bottom: 70px;
+}
+
+.cab__heading__two {
+  font-size: 35px;
+  font-weight: bolder;
+  color: #010101;
+}
+
+.cab__heading__one {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #010101;
+}
+
+.cab__para {
+  max-width: 560px;
+  font-size: 18px;
+  color: #010101;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.cab__btn {
+  background: #010101;
+  color: #fff;
+  padding: 5px 32px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  border: none;
+  border-radius: 8px;
+}
+
+.cab__booking {
+  background-color: #fff;
+}
+
+.cab__booking h2 {
+  background: #010101;
+  color: #fff;
+  font-size: 34px;
+  font-weight: bolder;
+  padding: 16px 32px;
+}
+
+.cab__booking h2 span {
+  color: #ffc61a;
+}
+
+.cab__booking form {
+  padding-left: 32px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+.cab__booking form .form__group {
+  display: flex;
+  gap: 24px;
+  margin: 30px 0;
+}
+
+.cab__booking form input,
+.cab__booking form select {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 20px;
+  font-weight: 700;
+  color: #010101;
+}
+
+.cab__booking form input:focus,
+.cab__booking form select:focus {
+  box-shadow: none;
+}
+
+.cab__booking form input::placeholder {
+  color: #010101;
+}
+
+.booking__submit {
+  width: 100%;
+  background: #010101;
+  color: #fff;
+  padding: 5px 32px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+/* ===CAB SECTION END=== */

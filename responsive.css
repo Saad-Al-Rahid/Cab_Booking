@@ -1,0 +1,87 @@
+@media (max-width: 1199px) {
+  /* ===header=== */
+  header h3 {
+    margin-top: 170px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* ===header=== */
+
+  .navbar-nav {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin-top: 0.5rem;
+  }
+  .main__taxi__img {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  nav .navbar-brand img {
+    width: 130px;
+    height: auto;
+  }
+  header h3 {
+    font-size: 24px;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header p {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+
+  /* ===CAB SECTION=== */
+
+  #cab {
+    padding-top: 90px;
+  }
+
+  .cab__heading__two {
+    font-size: 24px;
+  }
+
+  .cab__heading__one {
+    font-size: 36px;
+  }
+
+  .cab__para {
+    font-size: 14px;
+  }
+
+  .cab__booking {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 578px) {
+  header h3 {
+    font-size: 18px;
+  }
+
+  header h1 {
+    font-size: 34px;
+  }
+
+  header p {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  /* ===CAB SECTION=== */
+  .cab__booking h2 {
+    font-size: 24px;
+  }
+  .cab__booking form input,
+  .cab__booking form select {
+    font-size: 16px;
+  }
+}
