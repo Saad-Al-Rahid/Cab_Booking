@@ -23,7 +23,7 @@ nav .navbar-brand img {
 
 .navbar-nav .nav-item .nav-link {
   color: #fff;
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 17px;
   text-transform: uppercase;
   padding: 5px 24px;
@@ -84,20 +84,20 @@ header {
 header h3 {
   color: #ffc61a;
   font-size: 36px;
-  font-weight: bolder;
+  font-weight: 900;
   margin-top: 100px;
 }
 
 header h1 {
   color: #fff;
   font-size: 72px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 header p {
   color: #fff;
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: 900;
   letter-spacing: 10px;
 }
 
@@ -117,13 +117,13 @@ header p {
 
 .cab__heading__two {
   font-size: 35px;
-  font-weight: bolder;
+  font-weight: 900;
   color: #010101;
 }
 
 .cab__heading__one {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 900;
   color: #010101;
 }
 
@@ -153,7 +153,7 @@ header p {
   background: #010101;
   color: #fff;
   font-size: 34px;
-  font-weight: bolder;
+  font-weight: 900;
   padding: 16px 32px;
 }
 
@@ -214,13 +214,13 @@ header p {
 .tariffs__heading2 {
   color: #ffc61a;
   font-size: 35px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .tariffs__heading1 {
   color: #010101;
   font-size: 44px;
-  font-weight: bolder;
+  font-weight: 900;
   margin-top: -15px;
   margin-bottom: 140px;
 }
@@ -237,7 +237,7 @@ header p {
 
 .tariffs__card h3 {
   font-size: 30px;
-  font-weight: bolder;
+  font-weight: 900;
   color: #010101;
 }
 
@@ -248,7 +248,7 @@ header p {
 .tariffs__card h1 {
   color: #ffc61a;
   font-size: 44px;
-  font-weight: bolder;
+  font-weight: 900;
   margin-bottom: 32px;
 }
 
@@ -270,7 +270,7 @@ header p {
 
 .tariffs__card__middle h3 {
   font-size: 30px;
-  font-weight: bolder;
+  font-weight: 900;
   color: #010101;
 }
 
@@ -281,7 +281,7 @@ header p {
 .tariffs__card__middle h1 {
   color: #010101;
   font-size: 44px;
-  font-weight: bolder;
+  font-weight: 900;
   margin-bottom: 32px;
 }
 
@@ -328,7 +328,7 @@ header p {
 .services__content h4 {
   color: #ffc61a;
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .services__content p {
@@ -357,7 +357,7 @@ header p {
 .content__left h3 {
   color: #010101;
   font-size: 26px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .content__left p {
@@ -412,14 +412,104 @@ header p {
 
 .testimonial__profile__content h3 {
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: 900;
   color: #ffc61a;
 }
 
 .testimonial__profile__content p {
   /* margin-top: -10px; */
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 /* ===TESTIMONIAL SECTION END=== */
+
+/* ===INFO SECTION START=== */
+
+#info {
+  background: #ffc61a;
+  padding: 70px 0;
+}
+
+#info h4 {
+  font-size: 35px;
+  color: #010101;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#info h1 {
+  font-size: 76px;
+  font-weight: 900;
+  color: #010101;
+}
+/* ===INFO SECTION END=== */
+
+/* ===FOOTER SECTION START=== */
+
+footer {
+  background: #010101;
+  color: #fff;
+  padding-top: 70px;
+}
+
+.footer__left,
+.footer__middle,
+.footer__right {
+  max-width: 280px;
+}
+
+.footer__title {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.line {
+  width: 100%;
+  height: 8px;
+  background: #ffc61a;
+  margin: 24px 0;
+}
+
+.social__link {
+  text-align: left;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding-inline-start: 0px;
+}
+.social__link li a {
+  color: #ffc61a;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social__link li a:hover {
+  color: #fff;
+}
+
+.android__user {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.android__user span,
+.apple__user span {
+  color: #ffc61a;
+}
+
+.apple__user span {
+  margin-right: 32px;
+}
+
+.footer__right p{
+font-weight: 900;
+}
+
+.footer__copyright{
+  font-size: 14px;
+  margin-top: 70px;
+}
+
+/* ===FOOTER SECTION END=== */
